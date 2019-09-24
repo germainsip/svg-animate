@@ -14,6 +14,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3s;
 }
 /* D  */
 #logo path:nth-child(1) {
@@ -74,5 +75,11 @@ body {
 @keyframes line-anim{
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill{
+    to{
+        fill: white;
     }
 }
