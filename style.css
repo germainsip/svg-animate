@@ -7,73 +7,60 @@ body {
     width: 100%;
     height: 100vh;
     /* background: rgb(16, 163, 102); */
-    background-image: linear-gradient(120deg, #d4fc79 0%, #57e76a 100%);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #08bd21 100%);
 }
 
-
+.container{
+    color: white;
+    font-family: Raleway, serif;
+    font-size: 46px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70%;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 #logo {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7)); 
     transform: translate(-50%, -50%);
     animation: fill 0.5s ease forwards 3s;
 }
 /* D  */
 #logo path:nth-child(1) {
-    stroke-dasharray: 572;
-    stroke-dashoffset: 572;
-    animation: line-anim 2s ease forwards;
+    stroke-dasharray: 1492;
+    stroke-dashoffset: 1492;
+    animation: line-anim 3s ease forwards;
 }
 /* E  */
 #logo path:nth-child(2) {
-    stroke-dasharray: 464;
-    stroke-dashoffset: 464;
-    animation: line-anim 2s ease forwards 0.3s;
+    stroke-dasharray: 961;
+    stroke-dashoffset: 962;
+    animation: line-anim 3s ease forwards 0.3s;
 
 }
 /* S  */
 #logo path:nth-child(3) {
-    stroke-dasharray: 494;
-    stroke-dashoffset: 494;
-    animation: line-anim 2s ease forwards 0.6s;
+    stroke-dasharray: 1771;
+    stroke-dashoffset: 1771;
+    animation: line-anim 3s ease forwards 0.6s;
 
 }
  /* I  */
 #logo path:nth-child(4) {
-    stroke-dasharray: 227;
-    stroke-dashoffset: 227;
-    animation: line-anim 2s ease forwards 0.9s;
+    stroke-dasharray: 1545;
+    stroke-dashoffset: 1545;
+    animation: line-anim 3s ease forwards 0.9s;
 
 }
 /* G  */
-#logo path:nth-child(5) {
-    stroke-dasharray: 636;
-    stroke-dashoffset: 636;
-    animation: line-anim 2s ease forwards 1.2s;
 
-}
-/* N  */
-#logo path:nth-child(6) {
-    stroke-dasharray: 605;
-    stroke-dashoffset: 605;
-    animation: line-anim 2s ease forwards 1.5s;
-
-}
-/* E  */
-#logo path:nth-child(7) {
-    stroke-dasharray: 463.9;
-    stroke-dashoffset: 463.9;
-    animation: line-anim 2s ease forwards 1.8s;
-
-}
-/* R  */
-#logo path:nth-child(8) {
-    stroke-dasharray: 549.07;
-    stroke-dashoffset: 549;
-    animation: line-anim 2s ease forwards 2.1s;
-
-}
 
 @keyframes line-anim{
     to {
