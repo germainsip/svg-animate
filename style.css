@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 70%;
+    top: 60%;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -30,7 +30,7 @@ body {
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7)); 
     transform: translate(-50%, -50%);
-    animation: fill 0.5s ease forwards 3s;
+    animation: fill 0.5s ease forwards 2s;
 }
 /* D  */
 #logo path:nth-child(1) {
