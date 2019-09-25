@@ -93,9 +93,11 @@ body {
 
 @keyframes hide{
     from {
-        fill: transparent;
+        /* fill: transparent; */
+        opacity: 0;
     }
     to {
-        fill:"#86BB35";
+        /* fill:#86BB35; */
+        opacity: 1;
     }
 }
