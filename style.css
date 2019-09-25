@@ -6,8 +6,11 @@
 body {
     width: 100%;
     height: 100vh;
-    background: rgb(16, 163, 102);
+    /* background: rgb(16, 163, 102); */
+    background-image: linear-gradient(120deg, #d4fc79 0%, #57e76a 100%);
 }
+
+
 
 #logo {
     position: absolute;
@@ -79,6 +82,9 @@ body {
 }
 
 @keyframes fill{
+    from {
+        fill: transparent;
+    }
     to{
         fill: white;
     }
